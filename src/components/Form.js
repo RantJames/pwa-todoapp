@@ -1,6 +1,7 @@
 import { useState, useRef } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 import { addTaskToDB } from "../utils/helpers";
 
 export const Form = () => {
@@ -20,6 +21,7 @@ export const Form = () => {
         <div>
            
 <form>
+<link rel="manifest" href="/manifest.json"/>
   <div className="form-group row">
     <label className="col-sm-2 col-form-label">Task Name</label>
     <div className="col-sm-8">

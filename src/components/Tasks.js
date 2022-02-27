@@ -14,9 +14,10 @@ export const Tasks = () => {
 
     return (
         <div>
+            <link rel="manifest" href="/manifest.json"></link>
             <span className="border">
             {TaskList ?
-                TaskList.map((task, index) => <Task key={index} taskname={task.taskname} duedate={task.duedate.toString()} assignedTo={task.assignedTo}/>)
+                TaskList.map((task, index) => <Task key={index} taskname={task.taskname} duedate={task.duedate} assignedTo={task.assignedTo}/>)
                 : "Loading..."}
                
              </span>   
