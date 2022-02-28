@@ -8,10 +8,14 @@ function App() {
   return (
     <div className="App">
       <link rel="manifest" href="/manifest.json"></link>
+      <div className='bg-dark text-white'>
       <h1>The To-Do App</h1>
-      <h3>by Rubin James</h3>
-      <Form/>
+      <h3>by Rubin James</h3> 
+      </div>
+      <div className='bg-light'>
+      <Form/>   
       <Tasks/>
+      </div>    
     </div>
   );
 }

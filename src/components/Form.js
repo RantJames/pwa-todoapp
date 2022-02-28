@@ -25,7 +25,7 @@ export const Form = () => {
   <div className="form-group row">
     <label className="col-sm-2 col-form-label">Task Name</label>
     <div className="col-sm-8">
-    <input className="form-control" ref={taskname_ele}
+    <input className="form-control bg-secondary text-white" ref={taskname_ele}
                     type="text"
                     id="taskname"
                     value={taskname}
@@ -36,7 +36,7 @@ export const Form = () => {
   <div className="form-group row">
     <label className="col-sm-2 col-form-label">Due Date</label>
     <div className="col-sm-8">
-    <input className="form-control" ref={duedate_ele}
+    <input className="form-control bg-secondary text-white" ref={duedate_ele}
                     type="date"
                     id="date"
                     //value={duedate.toString('yyyy')}
@@ -49,7 +49,7 @@ export const Form = () => {
   <div className="form-group row">
     <label className="col-sm-2 col-form-label">Assigned To</label>
     <div className="col-sm-8">
-    <input className="form-control" ref={assignedTo_ele}
+    <input className="form-control  bg-secondary text-white" ref={assignedTo_ele}
                     type="text"
                     id="assigned"
                     value={assignedTo}
@@ -59,7 +59,7 @@ export const Form = () => {
   </div>
   <div className="form-group row pt-2">
 <span className="align-middle">
-  <button type="button" className="btn btn-primary col-sm-2" onClick={() => submitForm()}>Add Task</button>
+  <button type="submit" className="btn btn-primary col-sm-2" onClick={() => submitForm()}>Add Task</button>
   </span>
   </div>
 </form>
