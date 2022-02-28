@@ -39,7 +39,6 @@ export const Form = () => {
     <input className="form-control bg-secondary text-white" ref={duedate_ele}
                     type="date"
                     id="date"
-                    //value={duedate.toString('yyyy')}
                     onChange={(e) => {
                     setDueDate(new Date(e.target.value))
                     }}

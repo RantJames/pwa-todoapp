@@ -4,7 +4,22 @@
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "joker2_1_24x24.jpg",
+      "sizes": "24x24",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "joker2_2_16x16.jpg",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "joker2_32x32.jpg",
+      "sizes": "32x32",
       "type": "image/x-icon"
     },
     {

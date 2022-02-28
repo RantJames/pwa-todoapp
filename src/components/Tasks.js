@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const Tasks = () => {
     const [TaskList, setTaskList] = useState([])
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(async () => {
         const existingTasks = await getAllTasksFromDB()
         setTaskList(existingTasks)
